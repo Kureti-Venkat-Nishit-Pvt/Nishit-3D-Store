@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nishit 3D Store Premium</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="particles"></div>
+
+<div class="loader" id="loader">
+  <h1 class="glow">Loading Nishit 3D Store...</h1>
+</div>
+
+<header class="glass">
+  <h1 class="glow">NISHIT 3D STORE</h1>
+  <nav>
+    <a href="#products">Products</a>
+    <a href="#payment">UPI</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2 class="glow">Premium 3D Printed Creations</h2>
+  <p>Movie Replicas • AI Helmets • Custom Keychains</p>
+  <button class="btn" onclick="toggleSnow()">❄ Snowfall Mode</button>
+</section>
+
+<section id="products">
+<h2 class="glow">Featured Products</h2>
+<div class="grid">
+  <div class="card" onclick="order('Black Pearl Replica')">⚓ Black Pearl Replica</div>
+  <div class="card" onclick="order('Custom Name Keychain')">🏠 Home Name Keychains</div>
+  <div class="card" onclick="order('Vehicle Number Keychain')">🚗 Vehicle Keychains</div>
+  <div class="card" onclick="order('Iron Man Helmet')">🤖 Iron Man Helmet</div>
+  <div class="card" onclick="order('Location Fridge Magnet')">🧲 Fridge Magnets</div>
+</div>
+</section>
+
+<section id="payment">
+<h2 class="glow">UPI Payments</h2>
+<div class="glass payment">
+<p>UPI ID: yourupi@okaxis</p>
+<p>Add QR Image Later</p>
+</div>
+</section>
+
+<section id="contact">
+<h2 class="glow">Contact</h2>
+<p>Instagram: @yourhandle</p>
+<a class="btn" href="https://wa.me/910000000000">WhatsApp Order</a>
+</section>
+
+<div id="snow-container"></div>
+<script src="script.js"></script>
+</body>
+</html>
